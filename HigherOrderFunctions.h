@@ -13,9 +13,9 @@ class F1 : public MapFunction {
 class IsEven : public FilterFunction {
     public:
         bool apply(double n);
-}
+};
 
 class IsOdd : public FilterFunction {
     public:
         bool apply(double n);
-}
+};
